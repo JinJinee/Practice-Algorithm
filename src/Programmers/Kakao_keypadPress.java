@@ -7,7 +7,6 @@ class Solution {
         int rHand = 12; // 오른손 위치(#)
 
         for (int num : numbers) {
-            // 눌러야 할 숫자
             if (num == 1 || num == 4 || num == 7) { // 왼쪽열 숫자(1, 4, 7)일 경우 -> 왼손
                 sb.append("L");
                 lHand = num;
