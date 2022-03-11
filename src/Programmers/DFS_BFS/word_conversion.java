@@ -12,18 +12,9 @@ class Solution {
     public int solution(String begin, String target, String[] words) {
         int answer = 0;
 
-        for(int i=0; i<words.length; i++){
-            if(begin != words[i]){
-                dfs(begin, words[i], target);
-            }
-        }
+        // 1.
         return answer;
     }
 
-    String dfs(String begin, String word, String target){
-        //for(int i=0; )
 
-
-        return begin;
-    }
 }
