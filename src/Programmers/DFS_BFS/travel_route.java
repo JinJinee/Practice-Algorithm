@@ -11,7 +11,7 @@ import java.util.Collections;
 // tickets의 각 행 [a, b]는 a 공항에서 b 공항으로 가는 항공권이 있다는 의미
 // 만일 가능한 경로가 2개 이상일 경우 알파벳 순서가 앞서는 경로를 return 
 
-class Solution {
+class travel_route {
     boolean visited[];
     ArrayList<String> allRoute;
     public String[] solution(String[][] tickets) {

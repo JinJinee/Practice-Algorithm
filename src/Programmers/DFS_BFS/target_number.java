@@ -10,7 +10,7 @@ package Programmers.DFS_BFS;
 // 오른쪽자식은 플러스한다.
 // 그리고 마지막 노드의 값에서 타겟넘버를 구한다.
 
-class Solution {
+class target_number {
     int count = 0;
 
     public int solution(int[] numbers, int target) {

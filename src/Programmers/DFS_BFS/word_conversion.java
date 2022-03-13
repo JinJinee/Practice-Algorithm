@@ -8,7 +8,7 @@ package Programmers.DFS_BFS;
 
 // 최소 몇 단계의 과정을 거쳐 begin을 target으로 변환할 수 있는지 return
 
-class Solution {
+class word_conversion {
     public int solution(String begin, String target, String[] words) {
         int answer = 0;
 
