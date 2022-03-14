@@ -1,4 +1,4 @@
-package Programmers.stack_queue;
+package Programmers.Stack_queue;
 
 public class stock_price {
 
